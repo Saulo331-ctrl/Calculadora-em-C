@@ -18,12 +18,6 @@ int main() {
     printf("4 - Divisão\n");
     scanf("%d", &opçao);
 
-    printf("Digite o primeiro número: ");
-    scanf("%f", &num1);
-
-    printf("Digite o segundo número: ");
-    scanf("%f", &num2);
-
     switch (opçao) {
         case 1:
             resultado = num1 + num2;
